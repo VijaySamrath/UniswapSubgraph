@@ -9,7 +9,7 @@ import {
 import { Address } from "@graphprotocol/graph-ts"
 import { FeeAmountEnabled } from "../generated/schema"
 import { FeeAmountEnabled as FeeAmountEnabledEvent } from "../generated/Contract/Contract"
-import { handleFeeAmountEnabled } from "../src/contract"
+import { handleFeeAmountEnabled } from "../src/uniswap-v-3-factory"
 import { createFeeAmountEnabledEvent } from "./contract-utils"
 
 // Tests structure (matchstick-as >=0.5.0)
